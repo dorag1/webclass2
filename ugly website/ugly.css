@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+
+}
+	
+	h1{
+	background-color: white;
+	font-family: 'Butterfly Kids', cursive;
+
+}
+
+a{
+	background-color: orange;
+	color: blue;
+}
+
+marquee {
+	color: pink;
+}
+p{
+font-family: 'Indie Flower', cursive;
+	color:red;
+
+
+}
