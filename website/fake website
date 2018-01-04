@@ -1,0 +1,27 @@
+h1{
+	color:purple;
+	font-family: 'Passion One', cursive;
+	margin: auto;
+	width:50%;
+	boarder-style:solid; color: purple
+}
+body {
+	color: green;
+
+}
+
+p{
+	background-color: black;	
+
+	font-family: "Comic Sanz";
+	border-style: solid; color: red
+	text-color: black;
+}
+a:link{
+	font-size: 200%;
+}
+a{
+	color:brown;
+}
+<marquee> Scrolling Text
+color:blue;

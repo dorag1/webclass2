@@ -1,0 +1,25 @@
+h1{
+	color:purple;
+	font-family: 'Passion One', cursive;
+	margin: auto;
+	width:50%;
+	boarder-style:solid; color: purple
+}
+body {
+	color: green;
+
+}
+
+p{
+	background-color: pink;	
+
+	font-family: "Courier";
+	border-style: solid; color: red
+	text-color: black;
+}
+a:link{
+	font-size: 200%;
+}
+a{
+	color:brown;
+}
