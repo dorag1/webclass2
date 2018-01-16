@@ -1,0 +1,63 @@
+h1{
+	font-family: 'Passion One', cursive;
+	color: black;
+	
+}
+body {
+	color: white;
+	text-align: center;
+}
+#flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+p{
+	background-color: pink;	
+	font-family: "Courier";
+	border-style: solid; color: red
+	text-color: black;
+	display: block;
+}
+
+p.item {
+	border: 15px solid #903624;
+    background: #fafbfe;
+    margin: 15px;
+    width: 200px;
+}
+
+a:link{
+	font-size: 48px;
+}
+
+a{
+	color:brown;
+}
+
+.home {
+	text-align: center;
+}
+
+.menu h1 {
+	color: white;
+}
+
+.menu {
+	text-align: center;
+	background-color: black;
+}
+
+.menu .subtitle {
+	font-size: 24px;
+	font-family: 'Supermercado One', cursive;
+}
+
+.menu .dish {
+	margin: 10px;
+}
+
+.nav {
+	text-align: center;
+}
