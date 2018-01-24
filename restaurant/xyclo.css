@@ -1,7 +1,6 @@
 h1{
 	font-family: 'Passion One', cursive;
 	color: black;
-	
 }
 body {
 	color: white;
@@ -21,11 +20,47 @@ p{
 	display: block;
 }
 
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
 p.item {
 	border: 15px solid #903624;
     background: #fafbfe;
     margin: 15px;
-    width: 200px;
+    float: left;
+    
 }
 
 a:link{
@@ -41,12 +76,15 @@ a{
 }
 
 .menu h1 {
-	color: white;
+	color: black;
+	display:inline-block;
 }
 
 .menu {
 	text-align: center;
-	background-color: black;
+	background-color: white;
+	display: inline-block;
+	color:black;
 }
 
 .menu .subtitle {
@@ -60,6 +98,7 @@ a{
 
 .nav {
 	text-align: center;
+	display: inline-block;
 }
 .aboutus {
 	text-align: center;
@@ -69,4 +108,10 @@ a{
 	margin: 10px;
 	padding: 10px;
 
+}
+.food{
+	float:left; 
+	margin:10px;
+	height:300px;
+	border:1px solid black;
 }
