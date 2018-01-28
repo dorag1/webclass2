@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<title>Mr. Knapp's Class</title> 
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link  rel="stylesheet" type= "text/css" href="style.css"/>
 </head>
 <body>
 	<h1> Mr. Knapps Class </h1>
 	
-	<div class="website col-3">
+	
+
+	<div class="jumbotron display">
+		<h1 class="display-3">Welcome to my website!</h1>
+		<p class="lead">This is all the links to my different websites.</p>
+		<hr class="my-4">
+		<p class="letters"> It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+		<div class="website col-3">
 		<a href="family/index.html"> Biography Website
 			<img src="biography.png" alt= "Chef picture" width="100%" > 
 		</a>
+		</div>
+		<div class="website col-3">
+			<a href="restaurant/xyclo.html"> Xyclo Website
+				<img src="xyclo.png" alt= "Chef picture" width="100%" > 
+			</a>
+		</div>	
+
+		<p class="lead">
+		<a class="btn btn-primary btn-lg" href="family/index.html" role="button">Click me!</a>
+		</p>
 	</div>
-	<div class="website col-3">
-		<a href="restaurant/xyclo.html"> Xyclo Website
-			<img src="xyclo.png" alt= "Chef picture" width="100%" > 
-		</a>
-	</div>	
 	
 </body>
 </html>

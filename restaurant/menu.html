@@ -2,30 +2,59 @@
 	<head>
 
 	<title>Xyclo Piedmont Ave</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link  rel="stylesheet" type= "text/css" href="xyclo.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+	<script src="script.js"></script>
 	
 </head>
 <body class="menu"> 
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top navbar-color">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand" href="#">Xyclo</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    	<li class="nav-item">
+        <a class="nav-link" href="xyclo.html"> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
+	 </li>
+      <li class="nav-item">
+        <a class="nav-link" href="map.html">Map</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutUs.html">About Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 	<h1> Menu </h1>
-	<div class="body col-12">
-		<div class="food col-3 col-m-5"> 
+	<div class="body col-lg-12">
+		<div class="food col-lg-3 col-md-5"> 
 			<div class="subtitle"> Rolls </div>
 			<img src="images/eggroll.png"/ width="100px"/>
 			<div>
- 				<div class="dish">XYCLO Roll (fried) - chicken, mushroom, carrot, taro, glass noodle and nuoc cham sauce 10 (V)</div>
+ 				<div class="dish">XYCLO Roll (fried) - chicken, mushroom, carrot, taro, glass noodle and nuoc cham sauce 10 (V)</div> 
+ 				<span class="new badge badge-secondary">New</span>
 			</div> 
 		</div>
 
-		<div class="food col-3 col-m-5"> 
+		<div class="food col-lg-3 col-md-5"> 
 			<div class="subtitle"> Greens and Soups </div>
 			<img src="images/salad.png"/ width="100px"/>
 			<div>
-				<div class="dish">~* Papaya Salad – crosscut papaya, poached shrimp, rau ram, Thai basil, caramelized onion, carrot and peanuts; tossed in a spicy lime vinaigrette 10</div>
+				<div class="dish">~* Papaya Salad – crosscut papaya, poached shrimp, rau ram, lettuce tossed in a spicy lime vinaigrette 10</div>
 			</div>
 		</div>
 
-		<div class="food col-3 col-m-5"> 
+		<div class="food col-lg-3 col-md-5"> 
 			<div class="subtitle"> Noodle Dishes </div>
 			<img src="images/noodles.png"/ width="100px"/>
 			<div>
@@ -34,36 +63,48 @@
 			</div> 
 		</div>
 
-		<div class="food col-3 col-m-5"> 
+		<div class="food col-lg-3 col-md-5"> 
 
 			<div class="subtitle"> Main Course </div>
 			<img src="images/maincourse.png"/ width="100px"/>
 			<div>
-				<div class="dish">~Ca’ Kho - Basa fish simmered in house caramelized sauce with bell pepper, green onion - served with rice and cucumber slices 17 </div>
+				<div class="dish">~Ca’ Kho - Basa fish simmered in house caramelized sauce with bell pepper, green onion 17 </div>
 			</div>
 		</div>
 
-		<div class="food col-3 col-m-5"> 
+		<div class="food col-lg-3 col-md-5"> 
 			<div class="subtitle"> Side Dishes </div>
 			<img src="images/vegetables.png"/ width="100px"/>
 			<div>
 				<div class="dish">~~*Spicy Green Beans 8 </div>
+				<button type="button" class="extrainfo btn btn-lg btn-danger" data-toggle="popover" title="More information" data-content="This is a vegetarian dish"> Details about dish</button>
 			</div>	
 		</div>
 
-		<div class="food col-3 col-m-5">
-			<div class="subtitle"> Dessert </div>
+		<div class="food col-lg-3 col-md-5">
+			<div class="subtitle"> Dessert </div> 
 			<img src="images/cake.png"/ width="100px"/>
 			<div>
-				<div class="dish">~~*Bannana Ice Cream with Chocolate 8 </div>
-			</div> 
+				<div class="dish">~~*Bannana Ice Cream with Chocolate 8 </div> 
+				<span class="new badge badge-secondary">New</span>
+			</div>  
 		</div>
 	</div>
 
-	<div class="nav col-12">
+	<div class="nav col-lg-12">
 		<a href="xyclo.html"> Home </a>
 		<a href="aboutUs.html"> About Us </a>
 		<a href="map.html"> Map </a>
 	</div>
+
+
+	<footer class="footer">
+      <div class="container">
+        <div class=""> Copyright 2018 </div>
+        <div class=""> <a href="https://www.yelp.com/biz/xyclo-oakland"> <button type="button" class="btn btn-secondary tool" data-toggle="tooltip" data-placement="top" title="Yelp Reviews">
+  Yelp Reviews
+</button></a></div>
+      </div>
+    </footer>
 </body>
 </html>

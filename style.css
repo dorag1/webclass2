@@ -34,8 +34,15 @@
 }
 
 .website{
-	float:left;
+	display:inline-block;
 	margin:10px;
-	height:300px;
 	border:2px solid black;
+}
+.letters{
+	font-family: 'Lora', serif;	
+}
+.display
+{
+	background-color: #cfc0f5;
+
 }
